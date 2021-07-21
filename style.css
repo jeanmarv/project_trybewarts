@@ -1,10 +1,26 @@
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
 }
 
 .trybewarts-login {
   display: flex;
   align-items: center;
+}
+
+#trybewarts-header-title {
+  font-size: 40px;
+}
+
+.main-container {
+  display: flex;
+
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
 }
