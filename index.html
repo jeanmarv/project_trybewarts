@@ -49,13 +49,45 @@
       </div>
       <div class="div-content">
         <legend id="label-content">Qual conteúdo você está com mais vontade de aprender?</legend>
+        <label for=""><input class="subject" type="checkbox" value="HoFs">HoFs</label>
+        <label for=""><input class="subject" type="checkbox" value="Jest">Jest</label>
+        <label for=""><input class="subject" type="checkbox" value="Promises">Promises</label>
+        <label for=""><input class="subject" type="checkbox" value="React">React</label>
+        <label for=""><input class="subject" type="checkbox" value="SQL">SQL</label>
+        <label for=""><input class="subject" type="checkbox" value="Python">Python</label>
       </div>
+      <hr>
+      <div id="div-number">
+        <legend id="label-rate">Como você avalia a Trybewarts?</legend>
+        <label for=""><input type="radio" value="1" name="rate">1</label>
+        <label for=""><input type="radio" value="2" name="rate">2</label>
+        <label for=""><input type="radio" value="3" name="rate">3</label>
+        <label for=""><input type="radio" value="4" name="rate">4</label>
+        <label for=""><input type="radio" value="5" name="rate">5</label>
+        <label for=""><input type="radio" value="6" name="rate">6</label>
+        <label for=""><input type="radio" value="7" name="rate">7</label>
+        <label for=""><input type="radio" value="8" name="rate">8</label>
+        <label for=""><input type="radio" value="9" name="rate">9</label>
+        <label for=""><input type="radio"value="10" name="rate">10</label>
+      </div>
+      <div>
+        <label for="textarea" class="textarea">Deixe seu comentário:</label>
+        <textarea name="" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+      </div>
+      <div>
+        <label for="" id="label-infos">Você concorda com o uso das informações acima?</label>
+        <input type="checkbox" id="agreement">
+      </div>
+      <button id="submit-btn" type="submit">Enviar</button>
     </form>
+    <div id="div-image">
+      <img src="images/trybewarts-colored.svg" alt="logo colorido da trybewarts" id="trybewarts-forms-logo">
+    </div>
   </main>
 
-  <div id="div-image">
-    <img src="images/trybewarts-colored.svg" alt="logo colorido da trybewarts" id="trybewarts-forms-logo">
-  </div>
+  <footer id="rodape">
+    <p>Direitos reservados à Trybewarts©</p>
+  </footer>
 
 
   <script src="script.js"></script>
