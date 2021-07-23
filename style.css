@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Frank Ruhl Libre', serif;
 }
 
 .header {
@@ -17,7 +20,33 @@
 
 .trybewarts-login {
   display: flex;
-  align-items: center;
+  margin-right: 120px;
+}
+
+#email,#senha {
+  margin: 0 5px;
+  border-radius: 10px;
+  height: 30px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  font-weight: 900;
+  font-size: 0.9em;
+  color: #696969;
+}
+
+.button-login {
+  margin-left: 5px;
+  height: 40px;
+  width: 180px;
+  border: none;
+  font-size: 0.9em;
+  background-color: #9400d3;
+  color: #fff;
+  font-weight: 900;
+  border-radius: 10px;
+  cursor: pointer;
+  align-self: center;
 }
 
 #trybewarts-header-title {
@@ -26,7 +55,12 @@
 
 .main-container {
   display: flex;
-} 
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 82.9vh;
+  background-color: #efefef;
+}
 
 #evaluation-form {
   display: flex;
@@ -34,19 +68,108 @@
   flex-direction: column;
 }
 
+
+.title-forms {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2em;
+  color: #363636;
+}
+
+#input-name,#input-lastname,#input-email,#house {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-weight: 900;
+  color: #696969;
+  width: 250px;
+}
+
+#input-lastname {
+  margin-left: 32px;
+}
+
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+#div-radios {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
 }
 
 .div-family {
   display: flex;
   flex-direction: column;
+  margin: 10px 0;
+  width: 50%;
+}
+
+.div-content {
+  width: 50%;
+  margin: 10px 0;
+}
+
+.subject{
+  margin-top: 10px;
+  margin: 10px 0;
+}
+
+.div-content .subject {
+  margin-left: 20px;
 }
 
 #div-number {
   display: flex;
+  margin-top: 10px;
+  font-weight: 700;
 }
 
-#div-image {
-  border: 2px solid blue;
+#label-rate {
+  margin-right: 20px;
+}
+
+.rate {
+  margin-right: 10px;
+}
+
+#div-textarea {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+#textarea {
+  width: 100%;
+  border: 1px solid #9400d3;
+  border-radius: 5px;
+  resize: none;
+}
+
+#div-label-infos {
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+#submit-btn {
+  margin-top: 10px;
+  background-color: #9400d3;
+  height: 40px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+#footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #696969;
+  color: #fff;
+  font-size: 1.5rem;
+  height: 6vh;
 }

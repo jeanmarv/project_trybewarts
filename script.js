@@ -1,6 +1,6 @@
 const getEmail = document.getElementById('email');
 const getSenha = document.getElementById('senha');
-const getButtom = document.querySelector('.botao');
+const getButtom = document.querySelector('.button-login');
 const getChekbox = document.querySelector('#agreement');
 const getButtomSubmit = document.querySelector('#submit-btn');
 
