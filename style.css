@@ -23,7 +23,7 @@
   margin-right: 120px;
 }
 
-#email,#senha {
+#email , #senha {
   margin: 0 5px;
   border-radius: 10px;
   height: 30px;
@@ -42,7 +42,7 @@
   border: none;
   font-size: 0.9em;
   background-color: #9400d3;
-  color: #fff;
+  color: white;
   font-weight: 900;
   border-radius: 10px;
   cursor: pointer;
@@ -76,7 +76,7 @@
   color: #363636;
 }
 
-#input-name,#input-lastname,#input-email,#house {
+#input-name , #input-lastname , #input-email , #house {
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
@@ -113,8 +113,7 @@
   margin: 10px 0;
 }
 
-.subject{
-  margin-top: 10px;
+.subject {
   margin: 10px 0;
 }
 
@@ -157,7 +156,7 @@
   margin-top: 10px;
   background-color: #9400d3;
   height: 40px;
-  color: #fff;
+  color: white;
   border-radius: 10px;
   font-size: 1em;
   font-weight: 900;
@@ -169,7 +168,7 @@
   justify-content: center;
   align-items: center;
   background-color: #696969;
-  color: #fff;
+  color: white;
   font-size: 1.5rem;
   height: 6vh;
 }
