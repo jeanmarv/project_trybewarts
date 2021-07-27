@@ -14,7 +14,6 @@ function validar() {
 }
 
 getButtom.addEventListener('click', validar);
-
 function checar() {
   if (getChekbox.checked === true) {
     getButtomSubmit.disabled = false;
